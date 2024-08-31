@@ -23,7 +23,7 @@ const Products = () => {
 
   return (
     <div className="app">
-      <h1>loading...</h1>
+      <h1>Data Fetched from API</h1>
       {loading ? (
         <p>Loading...</p>
       ) : (
