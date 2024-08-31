@@ -23,6 +23,7 @@ const Products = () => {
 
   return (
     <div className="app">
+      <h1>loading...</h1>
       {loading ? (
         <p>Loading...</p>
       ) : (
